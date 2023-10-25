@@ -23,3 +23,5 @@ df['col_3'] = df.apply(lambda x: get_sublist(x.col_1, x.col_2), axis=1)
 # drop empty row with column subset 
 df.dropna(axis=0, how=all, subset=[])
 ```
+
+[pd.merge_asof() to perform a merge by key distance](https://pandas.pydata.org/docs/reference/api/pandas.merge_asof.html)
